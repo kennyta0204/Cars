@@ -18,7 +18,7 @@ INSERT INTO car_make (
 INSERT INTO car_make (
 	make, country)
 	VALUES ('AUDI', 'EU');
-
+ 
 INSERT INTO car_make (
 	make, country)
 	VALUES ('BMW', 'EU');
