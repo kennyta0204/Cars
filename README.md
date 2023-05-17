@@ -25,6 +25,7 @@ Steps to clone the dataset:
 Alternatively if you would like to have the dataset on a different SQL database, just download the sql files and execute them in any order.
 
 Future updates:
+
     - I plan to add much more cars/editions into the dataset
     - I hope to extract and add average used price as it would serve as an important search condition; however currently I have no means to do so (legally lol).
 
