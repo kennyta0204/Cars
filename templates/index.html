@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        }
+        table.center {
+        margin-left: auto;
+        margin-right: auto;
+        }
+        h1.header {text-align: center}
+    </style>
+    <h1 class="header">{% block title %} All Cars {% endblock %}</h1>
+    <table class="center">
+        <tr>
+            <th>Make</th>
+            <th>Car</th>
+            <th>Model</th>
+        </tr>
+        {% for car in cars %}
+            <tr>
+                <td>{{ car[0] }}</td>
+                <td>{{ car[1] }}</td>
+                <td>{{ car[2] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

@@ -1,6 +1,0 @@
-make,name,edition,min_year,max_year,hp,torque,cylinder,displacement,aspiration,transmission,drive,body,door
-hyundai,veloster,turbo (fs),2012,2018,201,195,4,1.6,turbo,both,fwd,hatch,3
-hyundai,veloster,n (js),2019,2022,275,260,4,2.0,turbo,both,fwd,hatch,3
-pontiac,gto,5th gen,2004,2004,350,365,8,5.7,na,both,rwd,coupe,2
-pontiac,gto,5th gen,2005,2006,400,400,8,6.0,na,both,rwd,coupe,2
-nissan,400z,base,2022,9999,400,350,6,3.0,turbo,both,rwd,coupe,2

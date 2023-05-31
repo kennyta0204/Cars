@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <style>
+        .column {
+            float: left;
+            padding: 15px;
+        }
+
+        .left {
+            width: 450px; 
+            /* position: fixed; */
+            top:65;
+            height: 900px;
+        }
+
+        .right {
+            width: 60%;
+            padding-left: 50px;
+        }
+
+        input.slider_val {
+            width: 50px;
+        }
+        input.slider {
+            -webkit-appearance:none;
+            appearance: none;
+            width: 200px;
+            background: #d3d3d3;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            
+        }
+        input.slider::-webkit-slider-thumb {
+            -webkit-appearance: none; /* Override default look */
+            appearance: none;
+            width: 15px; /* Set a specific slider handle width */
+            height: 15px; /* Slider handle height */
+            border-radius: 15px;
+            background: black; /* Green background */
+            cursor: pointer; /* Cursor on hover */
+        }
+    </style>
+
+    <div class="row">
+        <div class="column left" style="background-color:#ffe3c0;">
+            <h1>{% block title %} Search Car by Criteria {% endblock %}</h1>
+            <form method="post">
+                <label for="domestic market">Domestic Market</label><br>
+                <input type = "checkbox" name="domestic market" value="US">
+                <label for="US">USDM</label><br>
+                <input type = "checkbox" name="domestic market" value="JP">
+                <label for="JP">JDM</label><br>
+                <input type = "checkbox" name="domestic market" value="EU">
+                <label for="EU">EDM</label><br>
+                <input type = "checkbox" name="domestic market" value="KR">
+                <label for="KR">KDM</label><br>
+                <br>
+
+                <label for="aspiration">Aspiration</label><br>
+                <input type="checkbox" name="aspiration" value="na">
+                <label for="na">Naturally Aspirated</label><br>
+                <input type="checkbox" name="aspiration" value="turbo">
+                <label for="turbo">Turbocharged</label><br>
+                <input type="checkbox" name="aspiration" value="supercharged">
+                <label for="supercharged">Supercharged</label><br>
+                <br>
+
+                <label for="drive">Drive</label><br>
+                <input type="checkbox" name="drive" value="fwd">
+                <label for="fwd">Front Wheel Drive</label><br>
+                <input type="checkbox" name="drive" value="rwd">
+                <label for="rwd">Rear Wheel Drive</label><br>
+                <input type="checkbox" name="drive" value="awd">
+                <label for="awd">All Wheel Drive</label><br>
+                <input type="checkbox" name="drive" value="4wd">
+                <label for="4wd">Four Wheel Drive</label><br>
+                <br>
+
+                <label for="body">Body</label><br>
+                <input type="checkbox" name="body" value="coupe">
+                <label for="coupe">Coupe (includes Fastbacks)</label><br>
+                <input type="checkbox" name="body" value="sedan">
+                <label for="sedan">Sedan</label><br>
+                <input type="checkbox" name="body" value="convertible">
+                <label for="convertible">Convertible (Roadsters)</label><br>
+                <input type="checkbox" name="body" value="hatch">
+                <label for="hatch">Hatchback</label><br>
+                <br>
+
+                <label for="transmission">Transmission Option</label>
+                <div class="drop_down">
+                    <select name="transmission">
+                        <option selected>Both (Default)</option>
+                        <option value="man">Manual</option>
+                        <option value="auto">Automatic</option>
+                    </select>
+                </div>
+                <br>
+
+                Atleast <input class="slider_val" id="hp_val" type="number" name="hp" value=0 oninput="hp_slide.value = hp_val.value"> Horsepower</input>
+                <br>
+                <input class="slider" id="hp_slide" type="range" min="1" max="500" value="0" oninput="hp_val.value = hp_slide.value"><br>
+                <br>
+
+                Atleast <input class="slider_val" id="tor_val" type="number" name="torque" value=0 oninput="tor_slide.value = tor_val.value"> Torque</input>
+                <br>
+                <input class="slider" id="tor_slide" type="range" min="1" max="500" value="0" oninput="tor_val.value = tor_slide.value"><br>
+                <br>
+
+                No older than <input class="yr_text_box" type="number" name="min_year" placeholder="Year..." min="1970" max="2030"></input><br>
+                <br>
+
+                Sort By:<br>
+                <input type="radio" id="sort", name="sort_by" value="make" checked>
+                <label for="make">Car Make</label><br>
+                <input type="radio" id="sort", name="sort_by" value="name">
+                <label for="name">Car Model</label><br>
+                <input type="radio" id="sort", name="sort_by" value="hp">
+                <label for="make">Horsepower</label><br>
+                <input type="radio" id="sort", name="sort_by" value="max_year">
+                <label for="make">Most Recent Model Year</label><br>
+
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+
+        <div class="column right" >
+            {% if cars|length > 0 %}
+                    <style>
+                        .right {
+                            background-color: rgb(206, 206, 206);
+                        }
+                    </style>
+            {% else %}
+                <style>
+                    .right {
+                        background-color: rgb(255, 255, 255);
+                    }
+                </style>
+            {% endif %}
+
+            {% block return %} {% endblock %}
+        </div>
+    </div>
+
+
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <style>
+        .column {
+            float: left;
+            padding: 15px;
+            
+            }
+
+        .left {
+            width: 450px;
+            /* position: fixed; */
+            top:65;
+            height: 900px;
+            }
+
+        .right {
+            width: 60%;
+            padding-left: 50px;
+            }
+
+
+    </style>
+    <div class="row">
+        <div class="column left" style="background-color:#ffe3c0;">
+            <h1>{% block title %} Search Car by Make & Model {% endblock %}</h1>
+            <form method="post">
+                <p>
+                    <label for="make">Make</label>
+                    <input type="text" name="make"
+                        placeholder="Make of Car">
+                    </input>
+                </p>
+
+                <p>
+                    <label for="model">Model</label>
+                    <input type="text" name="model"
+                        placeholder="Model of Car">
+                    </input>
+                </p>
+
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+
+        <div class="column right">
+        
+            {% if cars|length > 0 %}
+                    <style>
+                        .right {
+                            background-color: rgb(206, 206, 206);
+                        }
+                    </style>
+            {% else %}
+                <style>
+                    .right {
+                        background-color: rgb(255, 255, 255);
+                    }
+                </style>
+            {% endif %}
+
+            {% block return %} {% endblock %}
+        </div>
+    </div>
+{% endblock %}

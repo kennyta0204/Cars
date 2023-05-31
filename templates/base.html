@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta content="width=device-width, initial-scale=1">
+<head> 
+    <meta charset="UTF-8">
+    <title>
+        {% block title %} {% endblock %}
+    </title>
+    <style>
+        header.main {
+            position: fixed;
+            left:0;
+            right:0;
+            top:0;
+            /* background-color: rgb(255, 243, 228); */
+        }
+
+        .content {
+        padding-top: 50px;
+        }   
+        
+        nav a {
+            color: #b41033;
+            font-size: 3em;
+            margin-left: 50px;
+            text-decoration: none;
+        }
+
+        .car {
+            padding: 20px;
+            margin: 10px;
+            background-color: #f7f4f4;
+        }
+
+        .make {
+                margin-left: 50px;
+                font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="main" style="background-color:#ffe3c0;">
+        <nav>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('search') }}">Search</a>
+            <a href="{{ url_for('filter') }}">Critera Filter</a>
+            <a href="{{ url_for('index') }}">All Cars</a>
+        </nav>
+    </header>
+    <hr>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+
+
+
+</html>

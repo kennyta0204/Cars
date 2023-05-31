@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Kenny's Used Car Recommender {% endblock %}</h1>
+    <h4>Find the right car for you!</h4>
+    <h4>Start <a href="{{ url_for('search') }}">Searching</a> by Criteria or View <a href="{{ url_for('index') }}">All Cars</a> in my Database</h4>
+{% endblock %}
