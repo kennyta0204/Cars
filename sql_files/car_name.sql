@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS car_name;
 CREATE TABLE IF NOT EXISTS car_name (id SERIAL PRIMARY KEY, name VARCHAR(30) NOT NULL, make_id INTEGER NOT NULL);
 INSERT INTO car_name (name, make_id) VALUES ('integra', 1);
 INSERT INTO car_name (name, make_id) VALUES ('rsx', 1);
