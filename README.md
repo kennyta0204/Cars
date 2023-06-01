@@ -21,11 +21,11 @@ Steps to clone the dataset:
 
     1. Download Postgresql
     2. Create Database named "cars"
-    3. Download files from repository
-    4. Open cars_sql.ipynb and input your own psql password
-    5. Run notebook and DONE
+    3. Open psql_auth.py and input your own password
+    3. Run psql_init.py to setup database ($ python psql_init 'sql_files/')
+    5. Run app.py ($ python app.py)
 
-Alternatively if you would like to have the dataset on a different SQL database, just download the sql files and execute them in any order.
+Alternatively if you would like to have the dataset on a different SQL database, just download the sql files and execute them in order.
 
 Future updates:
 
