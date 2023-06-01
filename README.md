@@ -34,3 +34,9 @@ Future updates:
 
 ### Recommender System
 Working Progress... As of now you can run sql commands to view the dataset.
+
+### Jupyter Notebooks
+These can be ignored. They serve as my working papers for testing codes. They are not needed for the database or app to work.
+
+### Interactive App
+The app serves as a front-end interface for users (with no knowledge of SQL) to send search queries to the database via sql alchemy.
