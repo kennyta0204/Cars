@@ -10,6 +10,9 @@ The data is stored in a local Postgresql server and can be duplicated by followi
     Jupyter Notebook 6.4.11
     psycopg 2.9.6
     pandas 1.5.3
+    sqlalchemy 2.0.15
+    Flask 2.3.2
+    Flask-SQLAlchemy 3.0.3
 
 ### Data
 Data is aggregated by myself though various sources (wikipedia, car and driver, motor trend, etc.). Due to the discrepancies in sources, hp (horsepower) and torque may vary slightly from true, marketed values. The dataset is not complete and at its current state, primarily contains older cars that appeal to auto enthusiasts. (Do you realize how many different generation/editions of honda civics and porsche 911s with different specs are there? Too many lol).
