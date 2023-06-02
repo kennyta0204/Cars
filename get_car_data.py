@@ -13,7 +13,7 @@ def get_data():
     url = alchemy_auth
     engine = sqlalchemy.create_engine(url)
 
-    sql = '''SELECT make, name, edition, min_year, max_year, hp, torque, body, door, cylinder, displacement, aspiration, transmission, drive
+    sql = '''SELECT M.id, make, name, edition, min_year, max_year, hp, torque, body, door, cylinder, displacement, aspiration, transmission, drive
         FROM car_models AS M JOIN car_name AS N ON M.name_id = N.id JOIN car_make as MA ON N.make_id= MA.id;'''
 
     with engine.connect() as connn:

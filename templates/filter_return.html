@@ -9,29 +9,33 @@
     {% else %}
         {% for car in cars %}
             <div class='car'>
-                <h3>{{ car[0] }}</h3>
-                <h4>{{ car[1] }} - {{ car[2] }}</h4>
+                <h5>ID: {{ car[0] }}</h5>
+                <h3>{{ car[1] }}</h3>
+                <h4>{{ car[2] }} - {{ car[3] }}</h4>
                 <div class='specs'>
                     <p>
-                    HP: {{ car[3] }}
+                    HP: {{ car[4] }}
                     <br>
-                    Torque: {{ car[4] }}
+                    Torque: {{ car[5] }}
                     <br>
-                    Engine: {{ car[5] }} Cylinder, {{ car[6] }}L ({{ car[7] }})
+                    Engine: {{ car[6] }} Cylinder, {{ car[7] }}L ({{ car[8] }})
                     <br>
-                    Drive: {{ car[8] }}
+                    Drive: {{ car[9] }}
                     <br>
-                    Transmission Options: {{ car[9] }}
+                    Transmission Options: {{ car[10] }}
                     <br>
                     {% if car[11] != 9999 %}
-                        Model Years: {{ car[10] }} - {{ car[11] }}
+                        Model Years: {{ car[11] }} - {{ car[12] }}
                     {% else %}
-                        Model Years: {{ car[10] }} - Current
+                        Model Years: {{ car[11] }} - Current
                     {% endif %}
                     </p>
 
                 </div>
+                Cars that are similar to this: <br>
+                
             </div>
+            
         {% endfor %}
 
     {% endif %}

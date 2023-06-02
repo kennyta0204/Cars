@@ -1,117 +1,117 @@
-make,name,edition,min_year,max_year,hp,torque,body,door,cylinder,displacement,aspiration,transmission,drive,turbo,super,two_door,man,auto,fwd,rwd,awd
-ACURA,integra,base,1994,2000,140,124,coupe,2,4,1.8,na,both,fwd,0,0,1,1,1,1,0,0
-ACURA,integra,gsr,1994,2000,170,128,coupe,2,4,1.8,na,man,fwd,0,0,1,1,0,1,0,0
-ACURA,integra,type r,1999,2000,195,130,coupe,2,4,1.8,na,man,fwd,0,0,1,1,0,1,0,0
-ACURA,rsx,base,2002,2006,160,141,coupe,2,4,2.0,na,both,fwd,0,0,1,1,1,1,0,0
-ACURA,rsx,type s,2002,2004,200,141,coupe,2,4,2.0,na,man,fwd,0,0,1,1,0,1,0,0
-ACURA,rsx,type s,2005,2006,210,143,coupe,2,4,2.0,na,man,fwd,0,0,1,1,0,1,0,0
-ACURA,tsx,base,2004,2008,200,164,sedan,4,4,2.4,na,both,fwd,0,0,0,1,1,1,0,0
-ACURA,tl,base,2004,2008,270,233,sedan,4,4,3.2,na,both,fwd,0,0,0,1,1,1,0,0
-ACURA,tl,type s,2007,2008,286,256,sedan,4,4,3.5,na,both,fwd,0,0,0,1,1,1,0,0
-ACURA,nsx,base,1992,1996,270,210,coupe,2,6,3.0,na,both,rwd,0,0,1,1,1,0,1,0
-ACURA,nsx,base,1997,2005,290,224,coupe,2,6,3.2,na,both,rwd,0,0,1,1,1,0,1,0
-ALFA ROMEO,4c,base,2014,2018,237,258,coupe,2,4,1.7,turbo,auto,rwd,1,0,1,0,1,0,1,0
-ALFA ROMEO,4c,spyder,2014,2020,237,258,convertible,2,4,1.7,turbo,auto,rwd,1,0,1,0,1,0,1,0
-AUDI,a4,b7,2004,2008,200,207,sedan,4,4,2.0,turbo,both,awd,1,0,0,1,1,0,0,1
-AUDI,s4,b7,2005,2008,339,302,sedan,4,8,4.2,na,both,awd,0,0,0,1,1,0,0,1
-AUDI,rs4,b7,2006,2008,414,317,sedan,4,8,4.2,na,man,awd,0,0,0,1,0,0,0,1
-BMW,3 series,325i e30,1985,1991,168,164,coupe,4,6,2.5,na,both,rwd,0,0,0,1,1,0,1,0
-BMW,3 series,m3 e30,1986,1990,195,170,coupe,4,4,2.3,na,both,rwd,0,0,0,1,1,0,1,0
-BMW,3 series,m3 e36,1995,1999,240,224,coupe,2,6,3.2,na,both,rwd,0,0,1,1,1,0,1,0
-BMW,3 series,m3 e46,2000,2006,333,262,coupe,2,6,3.2,na,both,rwd,0,0,1,1,1,0,1,0
-BMW,3 series,m3 e90,2008,2013,414,300,sedan,4,8,4.0,na,both,rwd,0,0,0,1,1,0,1,0
-BMW,3 series,m3 e92,2008,2013,414,300,coupe,2,8,4.0,na,both,rwd,0,0,1,1,1,0,1,0
-BMW,z3,m roadster,1997,2000,240,225,convertible,2,6,3.2,na,man,rwd,0,0,1,1,0,0,1,0
-BMW,z3,m coupe,1997,2000,240,225,coupe,2,6,3.2,na,man,rwd,0,0,1,1,0,0,1,0
-BMW,z4,m roadster,2006,2008,338,269,convertible,2,6,3.2,na,man,rwd,0,0,1,1,0,0,1,0
-BMW,z4,m coupe,2006,2008,338,269,coupe,2,6,3.2,na,man,rwd,0,0,1,1,0,0,1,0
-BMW,z4,3.0si coupe,2006,2008,261,232,coupe,2,6,3.0,na,both,rwd,0,0,1,1,1,0,1,0
-CHEVROLET,corvette,c6 zo6,2005,2013,430,424,coupe,2,8,6.2,na,both,rwd,0,0,1,1,1,0,1,0
-FORD,mustang,s197 gt,2005,2009,300,320,coupe,2,8,4.6,na,man,rwd,0,0,1,1,0,0,1,0
-FORD,mustang,s550 gt,2014,2023,460,420,coupe,2,8,5.0,na,both,rwd,0,0,1,1,1,0,1,0
-FORD,mustang,s550 ecoboost,2014,2023,310,350,coupe,2,4,2.3,turbo,both,rwd,1,0,1,1,1,0,1,0
-FORD,focus,rs,2016,2018,350,350,hatch,4,4,2.3,turbo,man,awd,1,0,0,1,0,0,0,1
-HONDA,civic,eg si,1992,1993,125,98,hatch,2,4,1.6,na,man,fwd,0,0,1,1,0,1,0,0
-HONDA,civic,ek si,1995,2000,160,104,hatch,2,4,1.6,na,man,fwd,0,0,1,1,0,1,0,0
-HONDA,civic,fc si,2016,2022,205,192,coupe,2,4,1.5,turbo,man,fwd,1,0,1,1,0,1,0,0
-HONDA,civic,fk type r,2016,2022,306,295,hatch,4,4,2.0,turbo,man,fwd,1,0,0,1,0,1,0,0
-HONDA,s2000,ap1,2000,2003,237,153,convertible,2,4,2.0,na,man,rwd,0,0,1,1,0,0,1,0
-HONDA,s2000,ap2,2004,2008,237,162,convertible,2,4,2.2,na,man,rwd,0,0,1,1,0,0,1,0
-HYUNDAI,genesis,2.0 coupe,2013,2015,271,275,coupe,2,4,2.0,turbo,both,rwd,1,0,1,1,1,0,1,0
-HYUNDAI,genesis,3.8 coupe,2013,2015,348,295,coupe,2,6,3.8,na,both,rwd,0,0,1,1,1,0,1,0
-INFINITI,g35,coupe,2002,2007,298,260,coupe,2,6,3.5,na,both,rwd,0,0,1,1,1,0,1,0
-INFINITI,g35,sedan,2002,2006,298,260,sedan,4,6,3.5,na,both,rwd,0,0,0,1,1,0,1,0
-INFINITI,g37,coupe,2007,2015,328,270,coupe,2,6,3.7,na,both,rwd,0,0,1,1,1,0,1,0
-INFINITI,g37,sedan,2006,2015,328,270,sedan,4,6,3.7,na,both,rwd,0,0,0,1,1,0,1,0
-KIA,stinger,2.0 T,2018,2023,252,260,sedan,4,4,2.0,turbo,auto,awd,1,0,0,0,1,0,0,1
-KIA,stinger,3.3 T,2018,2023,368,376,sedan,4,6,3.3,turbo,auto,awd,1,0,0,0,1,0,0,1
-LEXUS,is,is300,1999,2005,217,218,sedan,4,6,3.0,na,both,rwd,0,0,0,1,1,0,1,0
-LEXUS,is,is300 hatch,1999,2005,217,218,hatch,4,6,3.0,na,both,rwd,0,0,0,1,1,0,1,0
-LEXUS,is,is f,2007,2014,416,371,sedan,4,8,5.0,na,auto,rwd,0,0,0,0,1,0,1,0
-LOTUS,elise,base,2005,2008,190,133,convertible,2,4,1.8,na,man,rwd,0,0,1,1,0,0,1,0
-LOTUS,exige,s 240,2005,2008,240,170,coupe,2,4,1.8,na,man,rwd,0,0,1,1,0,0,1,0
-MAZDA,mx5,na6,1990,1993,113,99,convertible,2,4,1.6,na,both,rwd,0,0,1,1,1,0,1,0
-MAZDA,mx5,na8,1994,1997,129,112,convertible,2,4,1.8,na,both,rwd,0,0,1,1,1,0,1,0
-MAZDA,mx5,nb,1999,2005,138,119,convertible,2,4,1.8,na,both,rwd,0,0,1,1,1,0,1,0
-MAZDA,mx5,nb mazdaspeed,2004,2005,178,166,convertible,2,4,1.8,turbo,man,rwd,1,0,1,1,0,0,1,0
-MAZDA,mx5,nc,2006,2013,158,138,convertible,2,4,2.0,na,both,rwd,0,0,1,1,1,0,1,0
-MAZDA,mx5,nd 1.5,2015,2019,129,111,convertible,2,4,1.5,na,man,rwd,0,0,1,1,0,0,1,0
-MAZDA,mx5,nd 2.0,2019,2023,181,151,convertible,2,4,2.0,na,man,rwd,0,0,1,1,0,0,1,0
-MAZDA,rx7,fb,1978,1980,138,133,coupe,2,0,1.3,na,both,rwd,0,0,1,1,1,0,1,0
-MAZDA,rx7,fc,1985,1992,146,134,coupe,2,0,1.3,na,both,rwd,0,0,1,1,1,0,1,0
-MAZDA,rx7,fc turbo ii,1987,1990,182,183,coupe,2,0,1.3,turbo,man,rwd,1,0,1,1,0,0,1,0
-MAZDA,rx7,fd,1993,1995,255,217,coupe,2,0,1.3,turbo,both,rwd,1,0,1,1,1,0,1,0
-MAZDA,rx8,base,2003,2011,232,159,sedan,4,0,1.3,na,both,rwd,0,0,0,1,1,0,1,0
-MAZDA,mazda3,mazdaspeed 3,2010,2013,263,280,hatch,4,4,2.3,turbo,man,fwd,1,0,0,1,0,1,0,0
-MERCEDES,c class,c250 w204,2007,2013,201,229,sedan,4,4,1.8,turbo,auto,rwd,1,0,0,0,1,0,1,0
-MERCEDES,c class,c63 w204,2007,2013,451,443,sedan,4,8,6.2,supercharged,auto,rwd,0,1,0,0,1,0,1,0
-MERCEDES,slk,slk230,1996,2004,194,207,convertible,2,4,2.0,supercharged,both,rwd,0,1,1,1,1,0,1,0
-MITSUBISHI,lancer,evolution 8,2003,2005,261,261,sedan,4,4,2.0,turbo,man,awd,1,0,0,1,0,0,0,1
-MITSUBISHI,lancer,evolution 10,2009,2015,291,300,sedan,4,4,2.0,turbo,man,awd,1,0,0,1,0,0,0,1
-MITSUBISHI,3000gt,vr4,1994,1997,320,307,coupe,2,6,3.0,turbo,man,4wd,1,0,1,1,0,0,0,1
-NISSAN,240sx,s13,1989,1994,140,152,coupe,2,4,2.4,na,both,rwd,0,0,1,1,1,0,1,0
-NISSAN,240sx,s14,1994,1998,155,160,coupe,2,4,2.4,na,both,rwd,0,0,1,1,1,0,1,0
-NISSAN,300zx,z32 twin turbo,1990,1996,300,283,coupe,2,7,3.0,turbo,both,rwd,1,0,1,1,1,0,1,0
-NISSAN,240z,base,1969,1973,151,146,coupe,2,6,2.4,na,man,rwd,0,0,1,1,0,0,1,0
-NISSAN,350z,base,2003,2008,287,274,coupe,2,6,3.5,na,both,rwd,0,0,1,1,1,0,1,0
-NISSAN,350z,nizmo,2007,2008,306,268,coupe,2,6,3.5,na,man,rwd,0,0,1,1,0,0,1,0
-NISSAN,370z,base,2009,2013,332,270,coupe,2,6,3.7,na,both,rwd,0,0,1,1,1,0,1,0
-NISSAN,370z,nismo,2009,2013,350,276,coupe,2,6,3.7,na,man,rwd,0,0,1,1,0,0,1,0
-NISSAN,gtr,r35 base,2008,2021,485,434,coupe,2,6,3.8,turbo,auto,rwd,1,0,1,0,1,0,1,0
-SCION,frs,base,2013,2016,200,151,coupe,2,4,2.0,na,both,rwd,0,0,1,1,1,0,1,0
-SUBARU,brz,1st gen,2013,2019,200,151,coupe,2,4,2.0,na,both,rwd,0,0,1,1,1,0,1,0
-SUBARU,brz,2nd gen,2021,2023,232,184,coupe,2,4,2.4,na,both,rwd,0,0,1,1,1,0,1,0
-SUBARU,impreza,2.5rs (gm6),1999,2001,165,166,coupe,2,4,2.5,na,both,awd,0,0,1,1,1,0,0,1
-SUBARU,impreza,wrx (blobeye),2003,2005,221,221,sedan,4,4,2.0,turbo,man,awd,1,0,0,1,0,0,0,1
-SUBARU,impreza,wrx sti (blobeye),2003,2005,265,253,sedan,4,4,2.5,turbo,man,awd,1,0,0,1,0,0,0,1
-SUBARU,impreza,wrx va,2014,2021,268,258,sedan,4,4,2.0,turbo,both,awd,1,0,0,1,1,0,0,1
-SUBARU,impreza,wrx sti va,2014,2021,305,290,sedan,4,4,2.5,turbo,both,awd,1,0,0,1,1,0,0,1
-TOYOTA,toyota 86,gt86,2017,2019,200,151,coupe,2,4,2.0,na,both,rwd,0,0,1,1,1,0,1,0
-TOYOTA,toyota 86,gr86,2021,2023,232,184,coupe,2,4,2.4,na,both,rwd,0,0,1,1,1,0,1,0
-TOYOTA,supra,a80 base (4th gen),1993,1998,220,209,coupe,2,6,3.0,na,both,rwd,0,0,1,1,1,0,1,0
-TOYOTA,supra,a80 turbo (4th gen),1993,1998,320,315,coupe,2,6,3.0,turbo,both,rwd,1,0,1,1,1,0,1,0
-TOYOTA,supra,2.0 (5th gen),2020,2023,255,295,coupe,2,6,2.0,turbo,both,rwd,1,0,1,1,1,0,1,0
-TOYOTA,supra,3.0 (5th gen),2019,2023,382,369,coupe,2,6,3.0,turbo,both,rwd,1,0,1,1,1,0,1,0
-TOYOTA,mr2,aw11,1984,1989,112,105,coupe,2,4,1.6,na,both,rwd,0,0,1,1,1,0,1,0
-TOYOTA,mr2,aw11 supercharged,1988,1989,145,137,coupe,2,4,1.6,supercharged,man,rwd,0,1,1,1,0,0,1,0
-TOYOTA,mr2,sw20,1990,1994,130,108,coupe,2,4,2.2,na,both,rwd,0,0,1,1,1,0,1,0
-TOYOTA,mr2,sw20 turbo,1990,1994,200,200,coupe,2,4,2.0,turbo,man,rwd,1,0,1,1,0,0,1,0
-TOYOTA,mr2,spyder,2000,2005,138,126,convertible,2,4,1.8,na,both,rwd,0,0,1,1,1,0,1,0
-TOYOTA,celica,gts,1999,2006,140,125,coupe,2,4,1.8,na,both,fwd,0,0,1,1,1,1,0,0
-TOYOTA,corolla,sr5,1984,1987,87,85,hatch,2,4,1.6,na,both,rwd,0,0,1,1,1,0,1,0
-TESLA,model3,base,2017,2023,271,310,sedan,4,0,0.0,electric,auto,awd,0,0,0,0,1,0,0,1
-TESLA,model3,performance,2017,2023,455,487,sedan,4,0,0.0,electric,auto,awd,0,0,0,0,1,0,0,1
-VOLKSWAGEN,golf,r32 mk4,2004,2004,238,236,hatch,2,6,3.2,na,man,4wd,0,0,1,1,0,0,0,1
-VOLKSWAGEN,golf,gti mk5,2006,2007,197,206,hatch,4,4,2.0,turbo,man,fwd,1,0,0,1,0,1,0,0
-VOLKSWAGEN,golf,gti mk6,2008,2011,207,207,hatch,2,4,2.0,turbo,both,fwd,1,0,1,1,1,1,0,0
-VOLKSWAGEN,golf,r mk6,2009,2011,256,243,hatch,2,4,2.0,turbo,man,4wd,1,0,1,1,0,0,0,1
-VOLKSWAGEN,golf,gti mk7,2015,2021,227,258,hatch,2,4,2.0,turbo,both,fwd,1,0,1,1,1,1,0,0
-VOLKSWAGEN,golf,r mk7,2015,2021,296,280,hatch,4,4,2.0,turbo,both,4wd,1,0,0,1,1,0,0,1
-VOLKSWAGEN,golf,gti mk8,2022,2023,241,273,hatch,4,4,2.0,turbo,both,fwd,1,0,0,1,1,1,0,0
-VOLKSWAGEN,golf,r mk8,2022,2023,315,310,hatch,4,4,2.0,turbo,both,awd,1,0,0,1,1,0,0,1
-HYUNDAI,veloster,turbo (fs),2012,2018,201,195,hatch,3,4,1.6,turbo,both,fwd,1,0,0,1,1,1,0,0
-HYUNDAI,veloster,n (js),2019,2022,275,260,hatch,3,4,2.0,turbo,both,fwd,1,0,0,1,1,1,0,0
-PONTIAC,gto,5th gen,2004,2004,350,365,coupe,2,8,5.7,na,both,rwd,0,0,1,1,1,0,1,0
-PONTIAC,gto,5th gen,2005,2006,400,400,coupe,2,8,6.0,na,both,rwd,0,0,1,1,1,0,1,0
-NISSAN,400z,base,2022,2023,400,350,coupe,2,6,3.0,turbo,both,rwd,1,0,1,1,1,0,1,0
-HYUNDAI,elantra,n,2023,2023,276,289,sedan,4,4,2.0,turbo,both,fwd,1,0,0,1,1,1,0,0
+id,make,name,edition,min_year,max_year,hp,torque,body,door,cylinder,displacement,aspiration,transmission,drive,turbo,super,two_door,man,auto,fwd,rwd,awd
+1,ACURA,integra,base,1994,2000,140,124,coupe,2,4,1.8,na,both,fwd,0,0,1,1,1,1,0,0
+2,ACURA,integra,gsr,1994,2000,170,128,coupe,2,4,1.8,na,man,fwd,0,0,1,1,0,1,0,0
+3,ACURA,integra,type r,1999,2000,195,130,coupe,2,4,1.8,na,man,fwd,0,0,1,1,0,1,0,0
+4,ACURA,rsx,base,2002,2006,160,141,coupe,2,4,2.0,na,both,fwd,0,0,1,1,1,1,0,0
+5,ACURA,rsx,type s,2002,2004,200,141,coupe,2,4,2.0,na,man,fwd,0,0,1,1,0,1,0,0
+6,ACURA,rsx,type s,2005,2006,210,143,coupe,2,4,2.0,na,man,fwd,0,0,1,1,0,1,0,0
+7,ACURA,tsx,base,2004,2008,200,164,sedan,4,4,2.4,na,both,fwd,0,0,0,1,1,1,0,0
+8,ACURA,tl,base,2004,2008,270,233,sedan,4,4,3.2,na,both,fwd,0,0,0,1,1,1,0,0
+9,ACURA,tl,type s,2007,2008,286,256,sedan,4,4,3.5,na,both,fwd,0,0,0,1,1,1,0,0
+10,ACURA,nsx,base,1992,1996,270,210,coupe,2,6,3.0,na,both,rwd,0,0,1,1,1,0,1,0
+11,ACURA,nsx,base,1997,2005,290,224,coupe,2,6,3.2,na,both,rwd,0,0,1,1,1,0,1,0
+12,ALFA ROMEO,4c,base,2014,2018,237,258,coupe,2,4,1.7,turbo,auto,rwd,1,0,1,0,1,0,1,0
+13,ALFA ROMEO,4c,spyder,2014,2020,237,258,convertible,2,4,1.7,turbo,auto,rwd,1,0,1,0,1,0,1,0
+14,AUDI,a4,b7,2004,2008,200,207,sedan,4,4,2.0,turbo,both,awd,1,0,0,1,1,0,0,1
+15,AUDI,s4,b7,2005,2008,339,302,sedan,4,8,4.2,na,both,awd,0,0,0,1,1,0,0,1
+16,AUDI,rs4,b7,2006,2008,414,317,sedan,4,8,4.2,na,man,awd,0,0,0,1,0,0,0,1
+17,BMW,3 series,325i e30,1985,1991,168,164,coupe,4,6,2.5,na,both,rwd,0,0,0,1,1,0,1,0
+18,BMW,3 series,m3 e30,1986,1990,195,170,coupe,4,4,2.3,na,both,rwd,0,0,0,1,1,0,1,0
+19,BMW,3 series,m3 e36,1995,1999,240,224,coupe,2,6,3.2,na,both,rwd,0,0,1,1,1,0,1,0
+20,BMW,3 series,m3 e46,2000,2006,333,262,coupe,2,6,3.2,na,both,rwd,0,0,1,1,1,0,1,0
+21,BMW,3 series,m3 e90,2008,2013,414,300,sedan,4,8,4.0,na,both,rwd,0,0,0,1,1,0,1,0
+22,BMW,3 series,m3 e92,2008,2013,414,300,coupe,2,8,4.0,na,both,rwd,0,0,1,1,1,0,1,0
+23,BMW,z3,m roadster,1997,2000,240,225,convertible,2,6,3.2,na,man,rwd,0,0,1,1,0,0,1,0
+24,BMW,z3,m coupe,1997,2000,240,225,coupe,2,6,3.2,na,man,rwd,0,0,1,1,0,0,1,0
+25,BMW,z4,m roadster,2006,2008,338,269,convertible,2,6,3.2,na,man,rwd,0,0,1,1,0,0,1,0
+26,BMW,z4,m coupe,2006,2008,338,269,coupe,2,6,3.2,na,man,rwd,0,0,1,1,0,0,1,0
+27,BMW,z4,3.0si coupe,2006,2008,261,232,coupe,2,6,3.0,na,both,rwd,0,0,1,1,1,0,1,0
+28,CHEVROLET,corvette,c6 zo6,2005,2013,430,424,coupe,2,8,6.2,na,both,rwd,0,0,1,1,1,0,1,0
+29,FORD,mustang,s197 gt,2005,2009,300,320,coupe,2,8,4.6,na,man,rwd,0,0,1,1,0,0,1,0
+30,FORD,mustang,s550 gt,2014,2023,460,420,coupe,2,8,5.0,na,both,rwd,0,0,1,1,1,0,1,0
+31,FORD,mustang,s550 ecoboost,2014,2023,310,350,coupe,2,4,2.3,turbo,both,rwd,1,0,1,1,1,0,1,0
+32,FORD,focus,rs,2016,2018,350,350,hatch,4,4,2.3,turbo,man,awd,1,0,0,1,0,0,0,1
+33,HONDA,civic,eg si,1992,1993,125,98,hatch,2,4,1.6,na,man,fwd,0,0,1,1,0,1,0,0
+34,HONDA,civic,ek si,1995,2000,160,104,hatch,2,4,1.6,na,man,fwd,0,0,1,1,0,1,0,0
+35,HONDA,civic,fc si,2016,2022,205,192,coupe,2,4,1.5,turbo,man,fwd,1,0,1,1,0,1,0,0
+36,HONDA,civic,fk type r,2016,2022,306,295,hatch,4,4,2.0,turbo,man,fwd,1,0,0,1,0,1,0,0
+37,HONDA,s2000,ap1,2000,2003,237,153,convertible,2,4,2.0,na,man,rwd,0,0,1,1,0,0,1,0
+38,HONDA,s2000,ap2,2004,2008,237,162,convertible,2,4,2.2,na,man,rwd,0,0,1,1,0,0,1,0
+39,HYUNDAI,genesis,2.0 coupe,2013,2015,271,275,coupe,2,4,2.0,turbo,both,rwd,1,0,1,1,1,0,1,0
+40,HYUNDAI,genesis,3.8 coupe,2013,2015,348,295,coupe,2,6,3.8,na,both,rwd,0,0,1,1,1,0,1,0
+41,INFINITI,g35,coupe,2002,2007,298,260,coupe,2,6,3.5,na,both,rwd,0,0,1,1,1,0,1,0
+42,INFINITI,g35,sedan,2002,2006,298,260,sedan,4,6,3.5,na,both,rwd,0,0,0,1,1,0,1,0
+43,INFINITI,g37,coupe,2007,2015,328,270,coupe,2,6,3.7,na,both,rwd,0,0,1,1,1,0,1,0
+44,INFINITI,g37,sedan,2006,2015,328,270,sedan,4,6,3.7,na,both,rwd,0,0,0,1,1,0,1,0
+45,KIA,stinger,2.0 T,2018,2023,252,260,sedan,4,4,2.0,turbo,auto,awd,1,0,0,0,1,0,0,1
+46,KIA,stinger,3.3 T,2018,2023,368,376,sedan,4,6,3.3,turbo,auto,awd,1,0,0,0,1,0,0,1
+47,LEXUS,is,is300,1999,2005,217,218,sedan,4,6,3.0,na,both,rwd,0,0,0,1,1,0,1,0
+48,LEXUS,is,is300 hatch,1999,2005,217,218,hatch,4,6,3.0,na,both,rwd,0,0,0,1,1,0,1,0
+49,LEXUS,is,is f,2007,2014,416,371,sedan,4,8,5.0,na,auto,rwd,0,0,0,0,1,0,1,0
+50,LOTUS,elise,base,2005,2008,190,133,convertible,2,4,1.8,na,man,rwd,0,0,1,1,0,0,1,0
+51,LOTUS,exige,s 240,2005,2008,240,170,coupe,2,4,1.8,na,man,rwd,0,0,1,1,0,0,1,0
+52,MAZDA,mx5,na6,1990,1993,113,99,convertible,2,4,1.6,na,both,rwd,0,0,1,1,1,0,1,0
+53,MAZDA,mx5,na8,1994,1997,129,112,convertible,2,4,1.8,na,both,rwd,0,0,1,1,1,0,1,0
+54,MAZDA,mx5,nb,1999,2005,138,119,convertible,2,4,1.8,na,both,rwd,0,0,1,1,1,0,1,0
+55,MAZDA,mx5,nb mazdaspeed,2004,2005,178,166,convertible,2,4,1.8,turbo,man,rwd,1,0,1,1,0,0,1,0
+56,MAZDA,mx5,nc,2006,2013,158,138,convertible,2,4,2.0,na,both,rwd,0,0,1,1,1,0,1,0
+57,MAZDA,mx5,nd 1.5,2015,2019,129,111,convertible,2,4,1.5,na,man,rwd,0,0,1,1,0,0,1,0
+58,MAZDA,mx5,nd 2.0,2019,2023,181,151,convertible,2,4,2.0,na,man,rwd,0,0,1,1,0,0,1,0
+59,MAZDA,rx7,fb,1978,1980,138,133,coupe,2,0,1.3,na,both,rwd,0,0,1,1,1,0,1,0
+60,MAZDA,rx7,fc,1985,1992,146,134,coupe,2,0,1.3,na,both,rwd,0,0,1,1,1,0,1,0
+61,MAZDA,rx7,fc turbo ii,1987,1990,182,183,coupe,2,0,1.3,turbo,man,rwd,1,0,1,1,0,0,1,0
+62,MAZDA,rx7,fd,1993,1995,255,217,coupe,2,0,1.3,turbo,both,rwd,1,0,1,1,1,0,1,0
+63,MAZDA,rx8,base,2003,2011,232,159,sedan,4,0,1.3,na,both,rwd,0,0,0,1,1,0,1,0
+64,MAZDA,mazda3,mazdaspeed 3,2010,2013,263,280,hatch,4,4,2.3,turbo,man,fwd,1,0,0,1,0,1,0,0
+65,MERCEDES,c class,c250 w204,2007,2013,201,229,sedan,4,4,1.8,turbo,auto,rwd,1,0,0,0,1,0,1,0
+66,MERCEDES,c class,c63 w204,2007,2013,451,443,sedan,4,8,6.2,supercharged,auto,rwd,0,1,0,0,1,0,1,0
+67,MERCEDES,slk,slk230,1996,2004,194,207,convertible,2,4,2.0,supercharged,both,rwd,0,1,1,1,1,0,1,0
+68,MITSUBISHI,lancer,evolution 8,2003,2005,261,261,sedan,4,4,2.0,turbo,man,awd,1,0,0,1,0,0,0,1
+69,MITSUBISHI,lancer,evolution 10,2009,2015,291,300,sedan,4,4,2.0,turbo,man,awd,1,0,0,1,0,0,0,1
+70,MITSUBISHI,3000gt,vr4,1994,1997,320,307,coupe,2,6,3.0,turbo,man,4wd,1,0,1,1,0,0,0,1
+71,NISSAN,240sx,s13,1989,1994,140,152,coupe,2,4,2.4,na,both,rwd,0,0,1,1,1,0,1,0
+72,NISSAN,240sx,s14,1994,1998,155,160,coupe,2,4,2.4,na,both,rwd,0,0,1,1,1,0,1,0
+73,NISSAN,300zx,z32 twin turbo,1990,1996,300,283,coupe,2,7,3.0,turbo,both,rwd,1,0,1,1,1,0,1,0
+74,NISSAN,240z,base,1969,1973,151,146,coupe,2,6,2.4,na,man,rwd,0,0,1,1,0,0,1,0
+75,NISSAN,350z,base,2003,2008,287,274,coupe,2,6,3.5,na,both,rwd,0,0,1,1,1,0,1,0
+76,NISSAN,350z,nizmo,2007,2008,306,268,coupe,2,6,3.5,na,man,rwd,0,0,1,1,0,0,1,0
+77,NISSAN,370z,base,2009,2013,332,270,coupe,2,6,3.7,na,both,rwd,0,0,1,1,1,0,1,0
+78,NISSAN,370z,nismo,2009,2013,350,276,coupe,2,6,3.7,na,man,rwd,0,0,1,1,0,0,1,0
+79,NISSAN,gtr,r35 base,2008,2021,485,434,coupe,2,6,3.8,turbo,auto,rwd,1,0,1,0,1,0,1,0
+80,SCION,frs,base,2013,2016,200,151,coupe,2,4,2.0,na,both,rwd,0,0,1,1,1,0,1,0
+81,SUBARU,brz,1st gen,2013,2019,200,151,coupe,2,4,2.0,na,both,rwd,0,0,1,1,1,0,1,0
+82,SUBARU,brz,2nd gen,2021,2023,232,184,coupe,2,4,2.4,na,both,rwd,0,0,1,1,1,0,1,0
+83,SUBARU,impreza,2.5rs (gm6),1999,2001,165,166,coupe,2,4,2.5,na,both,awd,0,0,1,1,1,0,0,1
+84,SUBARU,impreza,wrx (blobeye),2003,2005,221,221,sedan,4,4,2.0,turbo,man,awd,1,0,0,1,0,0,0,1
+85,SUBARU,impreza,wrx sti (blobeye),2003,2005,265,253,sedan,4,4,2.5,turbo,man,awd,1,0,0,1,0,0,0,1
+86,SUBARU,impreza,wrx va,2014,2021,268,258,sedan,4,4,2.0,turbo,both,awd,1,0,0,1,1,0,0,1
+87,SUBARU,impreza,wrx sti va,2014,2021,305,290,sedan,4,4,2.5,turbo,both,awd,1,0,0,1,1,0,0,1
+88,TOYOTA,toyota 86,gt86,2017,2019,200,151,coupe,2,4,2.0,na,both,rwd,0,0,1,1,1,0,1,0
+89,TOYOTA,toyota 86,gr86,2021,2023,232,184,coupe,2,4,2.4,na,both,rwd,0,0,1,1,1,0,1,0
+90,TOYOTA,supra,a80 base (4th gen),1993,1998,220,209,coupe,2,6,3.0,na,both,rwd,0,0,1,1,1,0,1,0
+91,TOYOTA,supra,a80 turbo (4th gen),1993,1998,320,315,coupe,2,6,3.0,turbo,both,rwd,1,0,1,1,1,0,1,0
+92,TOYOTA,supra,2.0 (5th gen),2020,2023,255,295,coupe,2,6,2.0,turbo,both,rwd,1,0,1,1,1,0,1,0
+93,TOYOTA,supra,3.0 (5th gen),2019,2023,382,369,coupe,2,6,3.0,turbo,both,rwd,1,0,1,1,1,0,1,0
+94,TOYOTA,mr2,aw11,1984,1989,112,105,coupe,2,4,1.6,na,both,rwd,0,0,1,1,1,0,1,0
+95,TOYOTA,mr2,aw11 supercharged,1988,1989,145,137,coupe,2,4,1.6,supercharged,man,rwd,0,1,1,1,0,0,1,0
+96,TOYOTA,mr2,sw20,1990,1994,130,108,coupe,2,4,2.2,na,both,rwd,0,0,1,1,1,0,1,0
+97,TOYOTA,mr2,sw20 turbo,1990,1994,200,200,coupe,2,4,2.0,turbo,man,rwd,1,0,1,1,0,0,1,0
+98,TOYOTA,mr2,spyder,2000,2005,138,126,convertible,2,4,1.8,na,both,rwd,0,0,1,1,1,0,1,0
+99,TOYOTA,celica,gts,1999,2006,140,125,coupe,2,4,1.8,na,both,fwd,0,0,1,1,1,1,0,0
+100,TOYOTA,corolla,sr5,1984,1987,87,85,hatch,2,4,1.6,na,both,rwd,0,0,1,1,1,0,1,0
+101,TESLA,model3,base,2017,2023,271,310,sedan,4,0,0.0,electric,auto,awd,0,0,0,0,1,0,0,1
+102,TESLA,model3,performance,2017,2023,455,487,sedan,4,0,0.0,electric,auto,awd,0,0,0,0,1,0,0,1
+103,VOLKSWAGEN,golf,r32 mk4,2004,2004,238,236,hatch,2,6,3.2,na,man,4wd,0,0,1,1,0,0,0,1
+104,VOLKSWAGEN,golf,gti mk5,2006,2007,197,206,hatch,4,4,2.0,turbo,man,fwd,1,0,0,1,0,1,0,0
+105,VOLKSWAGEN,golf,gti mk6,2008,2011,207,207,hatch,2,4,2.0,turbo,both,fwd,1,0,1,1,1,1,0,0
+106,VOLKSWAGEN,golf,r mk6,2009,2011,256,243,hatch,2,4,2.0,turbo,man,4wd,1,0,1,1,0,0,0,1
+107,VOLKSWAGEN,golf,gti mk7,2015,2021,227,258,hatch,2,4,2.0,turbo,both,fwd,1,0,1,1,1,1,0,0
+108,VOLKSWAGEN,golf,r mk7,2015,2021,296,280,hatch,4,4,2.0,turbo,both,4wd,1,0,0,1,1,0,0,1
+109,VOLKSWAGEN,golf,gti mk8,2022,2023,241,273,hatch,4,4,2.0,turbo,both,fwd,1,0,0,1,1,1,0,0
+110,VOLKSWAGEN,golf,r mk8,2022,2023,315,310,hatch,4,4,2.0,turbo,both,awd,1,0,0,1,1,0,0,1
+111,HYUNDAI,veloster,turbo (fs),2012,2018,201,195,hatch,3,4,1.6,turbo,both,fwd,1,0,0,1,1,1,0,0
+112,HYUNDAI,veloster,n (js),2019,2022,275,260,hatch,3,4,2.0,turbo,both,fwd,1,0,0,1,1,1,0,0
+113,PONTIAC,gto,5th gen,2004,2004,350,365,coupe,2,8,5.7,na,both,rwd,0,0,1,1,1,0,1,0
+114,PONTIAC,gto,5th gen,2005,2006,400,400,coupe,2,8,6.0,na,both,rwd,0,0,1,1,1,0,1,0
+115,NISSAN,400z,base,2022,2023,400,350,coupe,2,6,3.0,turbo,both,rwd,1,0,1,1,1,0,1,0
+116,HYUNDAI,elantra,n,2023,2023,276,289,sedan,4,4,2.0,turbo,both,fwd,1,0,0,1,1,1,0,0

@@ -70,7 +70,7 @@ def filter():
         sort_by = request.form.get('sort_by')
         conn = get_db_connection()
         cur = conn.cursor()
-        base_sql = "SELECT make, name, edition, hp, torque, cylinder, displacement, aspiration, drive, transmission, min_year, max_year, body FROM car_models AS M \
+        base_sql = "SELECT M.id, make, name, edition, hp, torque, cylinder, displacement, aspiration, drive, transmission, min_year, max_year, body FROM car_models AS M \
                 JOIN car_name AS N ON M.name_id = N.id \
                 JOIN car_make AS MA ON MA.id = N.make_id "
         
