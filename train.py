@@ -14,10 +14,12 @@ def mydist(x, y):
     perf = np.sqrt(np.sum((x_perf-y_perf)**2))
     feats = (len(x_feats) - np.sum((x_feats-y_feats)**2)) / len(x_feats)
     dist = perf/feats
-    
+
     return dist
 
+
 def train(data):
+
     df = pd.read_csv(data, index_col=False)
     X = df[['hp','torque','turbo', 'super', 'two_door','man','auto','fwd','rwd','awd']].to_numpy()
 
