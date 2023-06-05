@@ -34,7 +34,8 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('input', help= 'Car data file (csv)')
+    parser.add_argument('output', help="Name of model (pkl)")
     args =parser.parse_args()
 
-    with open('model_knn.pkl', 'wb') as handle:
+    with open(args.output, 'wb') as handle:
         pickle.dump(train(args.input), handle)

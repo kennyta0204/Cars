@@ -39,7 +39,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('output', help= "name of output file (csv)")
     args = parser.parse_args()
-    save_path = "data/" + args.output
+    save_path = args.output
 
     get_data().to_csv(save_path, index=False)
 

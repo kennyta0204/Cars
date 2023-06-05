@@ -1,0 +1,21 @@
+stages:
+  get_car_data:
+    cmd: python get_car_data.py data/train_data.csv
+    deps:
+    - get_car_data.py
+    outs:
+    - data/train_data.csv
+  train:
+    cmd: python train.py data/train_data.csv model_knn.pkl
+    deps:
+    - data/train_data.csv
+    - train.py
+    outs:
+    - model_knn.pkl
+  sim_cars:
+    cmd: python sim_cars.py model_knn.pkl data/train_data.csv
+    deps:
+    - data/train_data.csv
+    - model_knn.pkl
+    - sim_cars.py
+    
