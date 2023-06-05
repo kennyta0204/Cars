@@ -22,11 +22,11 @@ def get_db_connection():
 def home():
     return render_template('home_pg.html')
 
-@app.route("/all_cars/")
+@app.route("/index/")
 def index():
     conn = get_db_connection()
     cur = conn.cursor()
-    cur.execute('SELECT make, name, edition FROM car_models AS M JOIN car_name AS N ON M.name_id = N.id JOIN car_make AS MA ON MA.id = N.make_id;')
+    cur.execute('SELECT M.id, make, UPPER(name), UPPER(edition) FROM car_models AS M JOIN car_name AS N ON M.name_id = N.id JOIN car_make AS MA ON MA.id = N.make_id;')
     cars = cur.fetchall()
     cur.close()
     conn.close()
@@ -52,7 +52,6 @@ def search():
         cur.close()
         conn.close()
         return render_template('search_return.html', cars = searched_cars, num_returned = num_found)
-        # return render_template('return_cars.html', cars = searched_cars)
 
     return render_template('search.html')
 
@@ -70,9 +69,20 @@ def filter():
         sort_by = request.form.get('sort_by')
         conn = get_db_connection()
         cur = conn.cursor()
-        base_sql = "SELECT M.id, make, name, edition, hp, torque, cylinder, displacement, aspiration, drive, transmission, min_year, max_year, body FROM car_models AS M \
-                JOIN car_name AS N ON M.name_id = N.id \
-                JOIN car_make AS MA ON MA.id = N.make_id "
+        base_sql = '''SELECT M.id, make, UPPER(name), UPPER(edition), hp, torque, cylinder, displacement, aspiration, drive, transmission, min_year, max_year, body, sim1_id, UPPER(sim1), sim2_id, UPPER(sim2), sim3_id, UPPER(sim3) from car_models AS M \
+                JOIN car_name AS N ON N.id = M.name_id \
+                JOIN car_make as MA ON MA.id = N.make_id \
+                JOIN sim_cars AS S ON M.id = S.id \
+                JOIN (SELECT M.id AS id, CONCAT(make, ' ', name, ' - ', edition) AS sim1 FROM car_models AS M \
+                    JOIN car_name AS N ON M.name_id = N.id \
+                    JOIN car_make as MA ON N.make_id = MA.id) AS D1 ON S.sim1_id = D1.id \
+                JOIN (SELECT M.id AS id, CONCAT(make, ' ', name, ' - ', edition) AS sim2 FROM car_models AS M \
+                    JOIN car_name AS N ON M.name_id = N.id \
+                    JOIN car_make as MA ON N.make_id = MA.id) AS D2 ON S.sim2_id = D2.id \
+                JOIN (SELECT M.id AS id, CONCAT(make, ' ', name, ' - ', edition) AS sim3 FROM car_models AS M \
+                    JOIN car_name AS N ON M.name_id = N.id \
+                    JOIN car_make as MA ON N.make_id = MA.id) AS D3 ON S.sim3_id = D3.id
+            '''
         
         criteria_lst = []
 
@@ -154,9 +164,10 @@ def filter():
         cur.close()
         conn.close()
         return render_template('filter_return.html', cars = filtered_cars, num_returned = num_found)
-        # return render_template('return_cars.html', cars = filtered_cars)
     
     return render_template('filter.html')
+
+
 
 if __name__ == '__main__':
     app.run(debug= True)

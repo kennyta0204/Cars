@@ -7,33 +7,79 @@
     {% if cars|length == 0 %}
         NO CARS FOUND!
     {% else %}
-        {% for car in cars %}
-            <div class='car'>
-                <h5>ID: {{ car[0] }}</h5>
-                <h3>{{ car[1] }}</h3>
-                <h4>{{ car[2] }} - {{ car[3] }}</h4>
-                <div class='specs'>
-                    <p>
-                    HP: {{ car[4] }}
-                    <br>
-                    Torque: {{ car[5] }}
-                    <br>
-                    Engine: {{ car[6] }} Cylinder, {{ car[7] }}L ({{ car[8] }})
-                    <br>
-                    Drive: {{ car[9] }}
-                    <br>
-                    Transmission Options: {{ car[10] }}
-                    <br>
-                    {% if car[11] != 9999 %}
-                        Model Years: {{ car[11] }} - {{ car[12] }}
-                    {% else %}
-                        Model Years: {{ car[11] }} - Current
-                    {% endif %}
-                    </p>
 
+        <style>
+            .col {
+                float:left;
+                width: 30%;
+            }
+            .id {
+                margin: 10px 20px;
+                width: 5%
+            }
+            .row {
+                margin: 10px 5px;
+                background-color: #f7f4f4;
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .car {
+                /* padding: 20px; */
+                margin: 10px;
+                background-color: #f7f4f4;
+            }
+            .recs {
+                /* padding: 20px; */
+                margin: 30px 0px;
+                background-color: #f7f4f4;
+                width: 40%;
+            }
+        </style>
+
+        {% for car in cars %}
+            <div class="row">
+                <div class="col id">
+                    <h3>ID: {{ car[0] }}</h3>
                 </div>
-                Cars that are similar to this: <br>
-                
+
+                <div class="col car">
+                    <h3>{{ car[1] }}</h3>
+                    <h4>{{ car[2] }} - {{ car[3] }}</h4>
+                    
+                    <div class='specs'>
+                        <p style="margin-left: 10px;">
+                        HP: {{ car[4] }}
+                        <br>
+                        Torque: {{ car[5] }}
+                        <br>
+                        Engine: {{ car[6] }} Cylinder, {{ car[7] }}L ({{ car[8] }})
+                        <br>
+                        Drive: {{ car[9] }}
+                        <br>
+                        Transmission Options: {{ car[10] }}
+                        <br>
+                        {% if car[11] != 9999 %}
+                            Model Years: {{ car[11] }} - {{ car[12] }}
+                        {% else %}
+                            Model Years: {{ car[11] }} - Current
+                        {% endif %}
+                        <br>
+                        </p>
+                    </div>
+                </div>
+                    
+                <div class="col recs">
+                    <h4>If you like this vehicle,<br>then you may also like:</h4>
+                    <p style="margin-left: 25px;">
+                    ID: {{ car[14] }} &emsp;{{ car[15] }}<br>
+                    ID: {{ car[16] }} &emsp;{{ car[17] }}<br>
+                    ID: {{ car[18] }} &emsp;{{ car[19] }}<br>
+                    </p>
+                </div>
+
             </div>
             
         {% endfor %}

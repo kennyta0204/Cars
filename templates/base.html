@@ -12,7 +12,6 @@
             left:0;
             right:0;
             top:0;
-            /* background-color: rgb(255, 243, 228); */
         }
 
         .content {
@@ -26,11 +25,12 @@
             text-decoration: none;
         }
 
-        .car {
+        /* .car {
             padding: 20px;
             margin: 10px;
             background-color: #f7f4f4;
-        }
+        } */
+        
 
         .make {
                 margin-left: 50px;
@@ -44,8 +44,8 @@
         <nav>
             <a href="{{ url_for('home') }}">Home</a>
             <a href="{{ url_for('search') }}">Search</a>
-            <a href="{{ url_for('filter') }}">Critera Filter</a>
-            <a href="{{ url_for('index') }}">All Cars</a>
+            <a href="{{ url_for('filter') }}">Filter Search</a>
+            <a href="{{ url_for('index') }}">Index</a>
         </nav>
     </header>
     <hr>
