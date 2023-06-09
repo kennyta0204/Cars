@@ -8,30 +8,30 @@ stages:
       size: 1628
     outs:
     - path: data/train_data.csv
-      md5: 1b3ab9db3c7d509d3a85b01c021dd90b
-      size: 10109
+      md5: 720cc24db4bdc6f6661f912e32e43d4c
+      size: 9939
   train:
     cmd: python train.py data/train_data.csv model_knn.pkl
     deps:
     - path: data/train_data.csv
-      md5: 1b3ab9db3c7d509d3a85b01c021dd90b
-      size: 10109
+      md5: 720cc24db4bdc6f6661f912e32e43d4c
+      size: 9939
     - path: train.py
       md5: 3e085c05d5c5dc30179ff19cc741adb7
       size: 1125
     outs:
     - path: model_knn.pkl
-      md5: b3892daea1b09680bb4d47cbb3a93a20
-      size: 20842
+      md5: 59de75def84061edadcc7f6d888067ca
+      size: 20506
   sim_cars:
     cmd: python sim_cars.py model_knn.pkl data/train_data.csv
     deps:
     - path: data/train_data.csv
-      md5: 1b3ab9db3c7d509d3a85b01c021dd90b
-      size: 10109
+      md5: 720cc24db4bdc6f6661f912e32e43d4c
+      size: 9939
     - path: model_knn.pkl
-      md5: b3892daea1b09680bb4d47cbb3a93a20
-      size: 20842
+      md5: 59de75def84061edadcc7f6d888067ca
+      size: 20506
     - path: sim_cars.py
       md5: 9e1d5c3e3432cccf0894882230529458
       size: 2180
