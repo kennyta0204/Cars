@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 from sqlalchemy.sql import text
 from sklearn.neighbors import NearestNeighbors
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import pickle
 
 def mydist(x, y):
