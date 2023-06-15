@@ -2,3 +2,4 @@
 /__pycache__/
 /.dvc/
 /model_knn.pkl
+/psql_auth.py
