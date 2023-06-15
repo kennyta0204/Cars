@@ -32,10 +32,13 @@ Future updates:
     - I hope to extract and add average used price as it would serve as an important search condition; however currently I have no means to do so (legally lol).
 
 ### Recommender System
-Working Progress... As of now you can run sql commands to view the dataset.
+Recommendations are made for each vehicle using scikit-learn's nearest neighbor. Due to the difficulty in defining similarity between two cars, I created a custom distance metric to compute similarity between vehicles. The fuction computes the Euclidean distance between hp and torque, and divides that distance by a ratio representing the proportion of similar binary features two vehicles share (turbo, super, two_door, manual, automatic, fwd, rwd, awd). In other words, the Euclidean distance is penalized for each binary variable two vehicles do not have in common. 
 
-### Jupyter Notebooks
-These can be ignored. They serve as my working papers for testing codes. They are not needed for the database or app to work.
+For instance, if the Euclidean distance between car A and B is 20 and they share the exact same values for each binary variable, then the ratio would be 1 and the distance between car A and car B would be 20/1, or 20. However, if car C also have a Euclidean Distance of 20 with car A and share similar binary features except car C is turbocharged (turbo = 1) and only offered in manual (automatic = 0), and car A is not turbochared (turbo = 0) and offered in both manual and automatic (automatic = 1), then the ratio for these two cars would be 6/8 or 0.75 (6 representing similar features and 8 representing total features). The distance between car A and car C would be 20/0.75, or 26.67. Although car B and car C have similar Euclidean distances measuring hp and torque differences to car A, car C is more dissimilar to car A compared to car B due to differences in the binary features.
 
 ### Interactive App
-The app serves as a front-end interface for users (with no knowledge of SQL) to send search queries to the database via sql alchemy.
+Once you have the postgres database stored locally and have all the python files, run the dvc pipeline (> dvc repro) to get train_data.csv and model_knn.pkl. The pipeline will also run sim_cars.py which creates(or recreate if more cars are added into the db) a table in the postgres database, where the id is the car_id of each vehicle and three columns representing the car_id of the three most similar vehicle. This table is neccessary for the recommendation system.
+
+Finally, run the app. (> python app.py)
+
+The app serves as a front-end interface for users to send search queries to the database. No knowledge of SQL is required. Here is a [YouTube video](https://www.youtube.com/watch?v=Ok0_RiQ5DlM) of how the app should look: 

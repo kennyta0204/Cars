@@ -3,7 +3,7 @@ def secrets():
             "port": 5432,
             "database": "cars",
             "user": "postgres",
-            "pass": "Ken1099033"} # Input your own password HERE
+            "pass": ""} # Input your own password HERE
 
 def alchemy(secrets) :
     return ('postgresql://'+secrets['user']+':'+secrets['pass']+'@'+secrets['host']+
